@@ -22,5 +22,8 @@ planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Saturn', 'Jupiter', 'Uranus', '
 #
 #
 
-
-
+i = 0
+for planet in planets
+    puts "Planet #{i}: #{planet}"
+    i += 1
+end
